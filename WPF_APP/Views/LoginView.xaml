@@ -10,7 +10,7 @@
         <StackPanel MinWidth="400" >
             <TextBox Text="{Binding Account.FirstName}" HorizontalAlignment="Center" Padding="50" />
             <TextBox Text="{Binding Account.LastName}" HorizontalAlignment="Center" Padding="50" />
-            <Button Content="LOGIN" Command="{Binding LoginCommand}" Padding="50"></Button>
+            <Button Content="LOGIN" Command="{Binding LoginCommand}" Padding="10"></Button>
         </StackPanel>
         <StackPanel>
             <ListView ItemsSource="{Binding UsersCollection}">
@@ -27,6 +27,7 @@
                     </GridView>
                 </ListView.View>
             </ListView>
+
         </StackPanel>
             
     </Grid>
